@@ -79,7 +79,7 @@ nav {
 
 .logo {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .logo img {
@@ -209,10 +209,8 @@ nav {
     margin: auto auto;
 }
 
-span .line {
-    height: 10rem;
-    width: 4px;
-    color: black;
+.line {
+    border-right: 2px solid #EEEFF2;
 }
 
 /* =====================About Us====================== */
@@ -618,11 +616,11 @@ span .line {
     }
     .container {
         width: var(--container-width-sm);
-        margin: 0 auto;
+        margin: .5rem auto;
     }
 
     .logo img {
-        width: 6rem;
+        width:6rem;
     }
 
     #menu-icon {
@@ -725,7 +723,9 @@ span .line {
     .statics__item p {
         font-size: 8px;
     }
-
+    .line{
+        display: none;
+    }
     /* =====================About Us====================== */
     .about__row {
         display: flex;
@@ -887,7 +887,10 @@ span .line {
     .header__img {
         margin-top: 4rem;
     }
-
+    /* ======================Statics========================= */
+    .line{
+        display: none;
+    }
     /* =====================About Us====================== */
     .about__row {
         display: flex;
